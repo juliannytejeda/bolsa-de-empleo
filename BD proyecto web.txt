@@ -1,0 +1,41 @@
+use proyecto_web1
+
+create table Administrador(
+ID int identity primary key,
+Nombre varchar(30),
+Email varchar (50));
+
+create table Usuario(
+ID int identity primary key,
+Nombre varchar(30),
+Email varchar (50));
+
+create table Poster(
+ID int identity primary key,
+Nombre varchar(30),
+Email varchar (50));
+
+create table Puestos(
+Categoria varchar(50),
+Publicacion date,
+Ubicacion varchar(70),
+Posicion varchar(30),
+Empresa varchar (30),
+Descripcion text,
+Tipo varchar(30),
+Logo image,
+Urll text,
+Aplicacion varchar(50),
+Email varchar (50));
+
+create table Login_usuarios(
+Usuario varchar (50),
+Clave varchar (50));
+
+create table Administradores(
+Usuario varchar (50),
+Clave varchar (50));
+
+EXEC sp_rename 'Administradores','Login_Administradores';
+
+
