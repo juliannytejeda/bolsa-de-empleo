@@ -1,0 +1,4 @@
+Enlace de la aplicación web "bolsa de empleos (BOOJ)" hosteada.
+Para su ejecución exitosa necesita de la instalación de la "ApiBolsaDeEmpleoDefinitiva" en su ordenador ya que tuvimos problemas al hostearla.
+
+https://bolsaempleo.netlify.app/
